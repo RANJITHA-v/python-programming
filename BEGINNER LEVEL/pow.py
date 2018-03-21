@@ -1,4 +1,3 @@
-n=int(raw_input())
-k=int(raw_input())
-a=n**k
+n=raw_input().split()
+a= int(n)**int(k)
 print a
